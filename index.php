@@ -1,4 +1,5 @@
 <?php
+require "config/database/db.php";
+ 
 
-echo "Hello";
-
+echo get_data_private()["host"];
